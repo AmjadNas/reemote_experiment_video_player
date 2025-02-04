@@ -124,7 +124,7 @@ const finished = (picked, replayNum, elapsed) => {
 iframe {
   border-radius: 8px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  width: 100%;
+  width: 90%;
   height: 100vh; /* Full viewport height */
   object-fit: cover;
 }
