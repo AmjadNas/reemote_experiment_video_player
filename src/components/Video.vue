@@ -168,9 +168,6 @@ const restartVideo = () => {
 
 
 <template>
-  <h2>Video Player</h2>
-  <!-- <video autoplay ref="cldVideo" :src="videos[currentVideoIndex]" controls width="600" /> -->
-
   <iframe :src="videos[currentVideoIndex]+`&amp;controls=0&autoplay=1&mute=1&loop=1&rel=0`" 
   title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media;" :mute=1
   referrerpolicy="strict-origin-when-cross-origin" 
